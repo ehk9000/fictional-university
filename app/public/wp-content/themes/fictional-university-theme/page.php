@@ -44,8 +44,8 @@ while(have_posts()) {
             }
             wp_list_pages(array(
                 "title_li" => NULL,
-                'child_of' => $findChildOf
-
+                'child_of' => $findChildOf,
+                'sort_column' => 'menu_order'
             ));
             ?>
          
