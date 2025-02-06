@@ -15,27 +15,27 @@
       <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
       <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
+        <a class="event-summary__date t-center" href="<?php echo site_url('/events') ?>">
           <span class="event-summary__month">Mar</span>
           <span class="event-summary__day">25</span>
         </a>
         <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Poetry in the 100</a></h5>
+          <h5 class="event-summary__title headline headline--tiny"><a href="<?php echo site_url('/events') ?>">Poetry in the 100</a></h5>
           <p>Bring poems you&rsquo;ve wrote to the 100 building this Tuesday for an open mic and snacks. <a href="#" class="nu gray">Learn more</a></p>
         </div>
       </div>
       <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
+        <a class="event-summary__date t-center" href="<?php echo site_url('/events') ?>">
           <span class="event-summary__month">Apr</span>
           <span class="event-summary__day">02</span>
         </a>
         <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Quad Picnic Party</a></h5>
+          <h5 class="event-summary__title headline headline--tiny"><a href="<?php echo site_url('/events') ?>">Quad Picnic Party</a></h5>
           <p>Live music, a taco truck and more can found in our third annual quad picnic day. <a href="#" class="nu gray">Learn more</a></p>
         </div>
       </div>
 
-      <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>
+      <p class="t-center no-margin"><a href="<?php echo site_url('/events') ?>" class="btn btn--blue">View All Events</a></p>
     </div>
   </div>
   <div class="full-width-split__two">
@@ -48,8 +48,10 @@
           <span class="event-summary__day">20</span>
         </a>
         <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
-          <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
+          <h5 class="event-summary__title headline headline--tiny">
+            <p href="<?php echo site_url('/blog') ?>">We Were Voted Best School</p>
+          </h5>
+          <p>For the 100th year in a row we are voted #1. <a href="<?php echo site_url('/blog') ?>" class="nu gray">Read more</a></p>
         </div>
       </div>
       <div class="event-summary">
@@ -58,12 +60,12 @@
           <span class="event-summary__day">04</span>
         </a>
         <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Professors in the National Spotlight</a></h5>
-          <p>Two of our professors have been in national news lately. <a href="#" class="nu gray">Read more</a></p>
+          <h5 class="event-summary__title headline headline--tiny"><a href="<?php echo site_url('/blog') ?>">Professors in the National Spotlight</a></h5>
+          <p>Two of our professors have been in national news lately. <a href="<?php echo site_url('/blog') ?>" class="nu gray">Read more</a></p>
         </div>
       </div>
 
-      <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+      <p class="t-center no-margin"><a href="<?php echo site_url('/blog') ?>" class="btn btn--yellow">View All Blog Posts</a></p>
     </div>
   </div>
 </div>
