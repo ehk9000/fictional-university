@@ -2,6 +2,8 @@
 function university_post_types()
 {
     register_post_type('event', array(
+        'reqrite' => array('slig' => 'events'),
+        'has_archive' => 'true',
         'public' => true,
         'menu_icon' => 'dashicons-calendar-alt',
         'labels' => array(
